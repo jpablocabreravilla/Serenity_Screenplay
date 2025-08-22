@@ -1,10 +1,16 @@
 package stepDefinitions.hooks;
 
-import io.cucumber.java.es.Dado;
+import io.cucumber.java.en.Given;
+import tasks.OpenYoutubeTask;
 
-public class CommonSteps {
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
-    @Dado("el usuario abre la url de youtube")
+public class CommonSteps{
+
+    @Given("el usuario abre la url de youtube")
     public void elUsuarioAbreLaUrlDeYoutube() {
+
+        theActorCalled("User").wasAbleTo(OpenYoutubeTask.openBrowser());
+
     }
 }

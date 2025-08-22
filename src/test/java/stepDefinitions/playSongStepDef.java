@@ -1,18 +1,15 @@
 package stepDefinitions;
 
-import io.cucumber.java.es.Dado;
-import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Entonces;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class playSongStepDef {
 
-
-
-    @Cuando("el usuario busca una canción y selecciona aleatoriamente una canción")
+    @When("el usuario busca una canción y selecciona aleatoriamente una canción")
     public void elUsuarioBuscaUnaCancionYSeleccionaAleatoriamenteUnaCancion() {
     }
 
-    @Entonces("el usuario puede ver el título de la canción")
+    @Then("el usuario puede ver el título de la canción")
     public void elUsuarioPuedeVerElTituloDeLaCancion() {
     }
 }

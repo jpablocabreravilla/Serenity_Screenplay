@@ -14,3 +14,6 @@ Automated UI testing project using Java, Serenity BDD, Cucumber and the Screenpl
 
 ## Documentation
 https://serenity-bdd.github.io/docs/guide/user_guide_intro
+
+## Terminal
+mvn clean verify   
