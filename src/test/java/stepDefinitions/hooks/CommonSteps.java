@@ -9,8 +9,6 @@ public class CommonSteps{
 
     @Given("el usuario abre la url de youtube")
     public void elUsuarioAbreLaUrlDeYoutube() {
-
         theActorCalled("User").wasAbleTo(OpenYoutubeTask.openBrowser());
-
     }
 }
