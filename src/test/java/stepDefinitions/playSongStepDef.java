@@ -6,9 +6,7 @@ import io.cucumber.java.es.Entonces;
 
 public class playSongStepDef {
 
-    @Dado("el usuario abre la url de youtube")
-    public void elUsuarioAbreLaUrlDeYoutube() {
-    }
+
 
     @Cuando("el usuario busca una canción y selecciona aleatoriamente una canción")
     public void elUsuarioBuscaUnaCancionYSeleccionaAleatoriamenteUnaCancion() {

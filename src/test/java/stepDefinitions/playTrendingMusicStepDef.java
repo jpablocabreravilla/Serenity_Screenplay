@@ -7,9 +7,6 @@ import io.cucumber.java.es.Entonces;
 
 public class playTrendingMusicStepDef {
 
-    @Dado("el usuario abre la url de youtube")
-    public void elUsuarioAbreLaUrlDeYoutube() {
-    }
 
     @Cuando("el usuario navega a la sección de Tendencias")
     public void elUsuarioNavegaALaSeccionDeTendencias() {
